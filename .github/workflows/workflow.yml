@@ -21,6 +21,7 @@ env:
 jobs:
   build-riscv64:
     runs-on: ubuntu-24.04-arm
+    timeout-minutes: 30
     permissions:
       contents: read
       packages: read
@@ -73,6 +74,7 @@ jobs:
 
   build-aarch64:
     runs-on: ubuntu-24.04-arm
+    timeout-minutes: 30
     permissions:
       contents: read
       packages: read
